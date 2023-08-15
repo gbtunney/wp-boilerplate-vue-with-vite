@@ -1,0 +1,7 @@
+{
+    "admin/start.js": {
+        "file": "plugin_name.umd.cjs",
+        "isEntry": true,
+        "src": "admin/start.js"
+    }
+}

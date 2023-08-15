@@ -2,18 +2,18 @@
     <h3>Honorable Authors</h3>
 </div>
 <ul style="display: flex; min-width:100%; justify-content: center; flex-wrap: wrap;">
-    <?php
-        foreach ($authorList as $author) {
-            ob_start();
-            ?>
+    <?php foreach ($authorList as $author) {
+        ob_start(); ?>
             <li class="wpm_post_authors">
-                <a href='<?php echo $author['url']; ?>'> <img width='100px' src='<?php echo $author['avatar']; ?>' /></a>
+                <a href='<?php echo $author[
+                    'url'
+                ]; ?>'> <img width='100px' src='<?php echo $author[
+    'avatar'
+]; ?>' /></a>
                 <p><?php echo $author['name']; ?></p>
             </li>
-            <?php
-            echo ob_get_clean();
-        }
-    ?>
+            <?php echo ob_get_clean();
+    } ?>
 </ul>
 <br/>
 <br/>

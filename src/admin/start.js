@@ -1,3 +1,4 @@
+/*
 import routes from './routes';
 import { createWebHashHistory, createRouter } from 'vue-router'
 import WPPluginVueTailwind from './Bits/WPPluginVueTailwind';
@@ -21,3 +22,6 @@ router.afterEach((to, from) => {
         jQuery('.WPWVT_main-menu-items').find('li[data-key='+active+']').addClass('active');
     }
 });
+ */
+alert('THHIS IS START JS')
+export {}

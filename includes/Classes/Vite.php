@@ -33,9 +33,9 @@ class Vite
      * @param null $version
      * @param bool $inFooter
      * @return $this
-     * 
+     *
      * @throws \Exception If dev mode is on and file not found in manifest
-     * 
+     *
      */
     private function enqueueScript($handle, $src, $dependency = [], $version = null, $inFooter = false)
     {

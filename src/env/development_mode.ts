@@ -1,11 +1,17 @@
-var glob = require('glob');
-var fs = require('fs');
-
+import { globSync } from 'glob'
+import fs from 'fs'
 // For entry file selection
-glob("wp-plugin-with-vue-tailwind.php", function(err, files) {
+/*const _result = globSync(_value)
+    .forEach((_path: string): FilePath | undefined => {
+       // return getFilePathObj(_path)
+        console.log("path",path)
+    })*/
+//    .filter((_result) => _result !== undefined)
+/*
+globSync("wp-plugin-with-vue-tailwind.php", function(err, files) {
         files.forEach(function(item, index, array) {
-        var data = fs.readFileSync(item, 'utf8');
-        var mapObj = {
+        const data = fs.readFileSync(item, 'utf8');
+        const mapObj = {
            WPM_PRODUCTION : "WPM_DEVELOPMENT"
         };
         var result = data.replace(/WPM_PRODUCTION/gi, function(matched){
@@ -16,4 +22,4 @@ glob("wp-plugin-with-vue-tailwind.php", function(err, files) {
         });
         console.log('✅  Production asset enqueued!');
     });
-});
+});*/

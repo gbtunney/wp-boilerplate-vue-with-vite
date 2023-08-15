@@ -1,17 +1,18 @@
-import Admin from './Components/Admin.vue';
-import Contact from './Components/Contact.vue';
+import Admin from './Components/Admin.vue'
+import Contact from './Components/Contact.vue'
 
-export default [{
+export default [
+    {
         path: '/',
         name: 'dashboard',
         component: Admin,
         meta: {
-            active: 'dashboard'
+            active: 'dashboard',
         },
     },
     {
         path: '/contact',
         name: 'contact',
-        component: Contact
-    }
-];
+        component: Contact,
+    },
+]

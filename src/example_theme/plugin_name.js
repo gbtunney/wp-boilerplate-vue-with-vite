@@ -1,0 +1,1 @@
+alert('THHIS IS START JS')

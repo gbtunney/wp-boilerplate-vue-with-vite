@@ -1,7 +1,7 @@
-import { createApp } from 'vue';
+import { createApp } from 'vue'
 
-import '../../assets/tailwind.css';
+import '../../assets/tailwind.css'
 
-const app = createApp({});
+const app = createApp({})
 
-export default app;
+export default app

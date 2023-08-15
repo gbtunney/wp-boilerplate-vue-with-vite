@@ -1,0 +1,11 @@
+# Ignore artifacts:
+build
+coverage
+pnpm-lock.yaml
+includes/Classes/Vite.php
+includes/Classes/Activator.php
+includes/global_functions.php
+includes/autoload.php
+
+# Ignore all HTML files:
+**/*.html

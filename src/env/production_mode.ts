@@ -1,7 +1,16 @@
-var glob = require('glob');
-var fs = require('fs');
-
+import { globSync } from 'glob'
+import fs from 'fs'
+import { node } from '@snailicide/g-library'
+type FilePathObj = ReturnType<typeof node.getFilePathObj>
 // For entry file selection
+const filename = 'wp-plugin-with-vue-tailwind.php'
+/*const _result :FilePathObj[]= node.getFilePathArr(filename)
+_result.forEach( ( _arr:FilePathObj) => {
+    // return getFilePathObj(_path)
+    console.log("path",_arr)
+})*/
+// For entry file selection
+/*
 glob("wp-plugin-with-vue-tailwind.php", function(err, files) {
         files.forEach(function(item, index, array) {
         var data = fs.readFileSync(item, 'utf8');
@@ -16,4 +25,6 @@ glob("wp-plugin-with-vue-tailwind.php", function(err, files) {
         });
         console.log('✅  Development asset enqueued!');
     });
-});
+}); */
+
+export {}
